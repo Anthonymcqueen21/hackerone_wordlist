@@ -49,11 +49,6 @@ SQL Injection on blabla domain via userid parameter --> userid
 <?php echo $_GET['makesense']; ?>                   --> makesense
 ```
 
-## To Do
-- Develop own URL extracting library
-- Extract json and parse parameters from markdown code block.
-- Extract json and parse parameters from raw http response.
-
 ## Known Issues
 - It downloads reports each by each but nothing to do for getting it faster because HackerOne has rate-limit.
 
